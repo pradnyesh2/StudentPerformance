@@ -1,0 +1,13 @@
+prefix=D:/Personal/Study/Advance Executive Program in Data Science and AI/End to End ML Projects/StudentPerformance/venv/Library
+exec_prefix=D:/Personal/Study/Advance Executive Program in Data Science and AI/End to End ML Projects/StudentPerformance/venv/Library
+libdir=D:/Personal/Study/Advance Executive Program in Data Science and AI/End to End ML Projects/StudentPerformance/venv/Library/lib
+sharedlibdir=D:/Personal/Study/Advance Executive Program in Data Science and AI/End to End ML Projects/StudentPerformance/venv/Library/lib
+includedir=D:/Personal/Study/Advance Executive Program in Data Science and AI/End to End ML Projects/StudentPerformance/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
